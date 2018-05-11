@@ -1,0 +1,95 @@
+ /* body{
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 1em;
+} */
+
+/*
+
+main{
+    display: grid ;
+    grid-template-columns: repeat(5, 2fr);
+    grid-auto-rows: minmax(2vh, auto);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;    
+}
+
+section{
+    padding: 0.5em;
+}
+
+main>section:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 6;
+    background: lightblue;
+}
+
+main>section:nth-child(2){
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background: pink;
+}
+
+main>section:nth-child(3){
+    grid-column-start: 5;
+    grid-column-end: 6;
+    background: red;
+}
+
+main>section:nth-child(4){
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background: coral;
+}
+
+main>section:nth-child(5){
+    grid-column-start: 4;
+    grid-column-end: 6;
+    background: cyan;
+}
+
+main>section:nth-child(6){
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background: chocolate;
+}
+
+main>section:nth-child(7){
+    grid-column-start: 4;
+    grid-column-end: 6;
+} */
+
+main>section:first-child>article>p{
+    font-size: 4.375em;
+    margin-bottom: 0.25em;
+    line-height: 1.25714em;
+    font-weight: 400;
+    font-family: Messina Serif, serif;
+    letter-spacing: -0.2px;
+    color: #5c6ac4;
+}
+    
+
+main>section{
+    background-color: #f3f4fa;
+}
+
+.jumbotron{
+    padding-top: 5.625em;
+    padding-bottom: 5.625em;
+    background-color: #5c6ac4;
+    background-size: cover;
+    background-image: url(https://cdn.shopify.com/careers-assets/footer/splash-background-2x-53707eae11d9c60b022a4d9c8055b3fe8b6e895d5c4b2734893b99c9485b5ba3.png);
+}
+
+.jumbotron>h1{
+    color: #fae1e1;
+    font-size: 4.375em;
+}
+
+.btn-custom{
+    -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
+box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
+background-color: #ffffff;
+color: #5c6ac4;
+}
